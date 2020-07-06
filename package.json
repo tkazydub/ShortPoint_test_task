@@ -1,0 +1,26 @@
+{
+  "name": "shortpoint_test_task",
+  "version": "1.0.0",
+  "description": "This is test task for ShortPoint interview",
+  "author": "Taras Kazydub",
+  "license": "ISC",
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "e2e": "protractor protractor.conf.js",
+    "e2e:slideshow": "npm run e2e -- --suite=slideshow",
+    "e2e:navigation_between_sites": "npm run e2e -- --suite=navigation_between_sites",
+    "e2e:tile_hover": "npm run e2e -- --suite=tile_hover"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^5.0.2",
+    "log4js": "^6.3.0",
+    "protractor": "^7.0.0",
+    "protractor-beautiful-reporter": "^1.3.6",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.5.11",
+    "@types/node": "^14.0.14"
+  }
+}
